@@ -16,6 +16,7 @@ namespace _9.Lists
 
             for (int i = 0; i < empanadasShoppingList.Count; i++)
             {
+
                 Console.WriteLine(empanadasShoppingList[i]);
             }
 

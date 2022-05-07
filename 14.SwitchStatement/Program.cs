@@ -12,6 +12,7 @@ namespace _14.SwitchStatement
             {
                 case "naranja":
                     Console.WriteLine("$20");
+
                     break;
                 case "fresa":
                     Console.WriteLine("$35");
@@ -20,6 +21,7 @@ namespace _14.SwitchStatement
                     Console.WriteLine("Enter a valid Value.");
                     break;
             }
+
         }
     }
 }
