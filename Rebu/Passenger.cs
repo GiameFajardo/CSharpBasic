@@ -10,7 +10,21 @@ namespace Rebu
         {
 
         }
-
+        public Passenger(string name)
+        {
+            this.Name = name;
+        }
+        public Passenger(int identifier)
+        {
+            this.Identifier = identifier.ToString();
+        }
+        public Passenger(string name, string identifier, string photo, string phone)
+        {
+            this.Name = name;
+            this.Identifier = identifier;
+            this.Photo = photo;
+            this.Phone = phone;
+        }
         public string Name { get; set; }
         public string Identifier { get; set; }
         public string Photo { get; set; }

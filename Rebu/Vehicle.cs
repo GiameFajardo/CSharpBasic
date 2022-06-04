@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Rebu
 {
-    internal class Vehicle
+    public class Vehicle
     {
+
     }
 }
