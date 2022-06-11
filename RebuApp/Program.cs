@@ -8,6 +8,9 @@ namespace RebuApp
     {
         static void Main(string[] args)
         {
+
+
+
             Passenger passenger1 = new Passenger();
             passenger1.Name = "Pablo";
             passenger1.Identifier = "xxxxxx";
