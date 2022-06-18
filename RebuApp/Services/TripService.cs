@@ -21,5 +21,16 @@ namespace RebuApp.Services
 
             return trip;
         }
+        public static Trip RequesTrip (){
+
+
+            return new Trip(new Address(1,1), new Address(2,2));
+        }
+
+        public static void PayTrip(Trip trip)
+        {
+            trip.status = "Paid";
+        }
+    
     }
 }

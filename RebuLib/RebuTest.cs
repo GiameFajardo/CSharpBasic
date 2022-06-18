@@ -4,7 +4,8 @@ using System.Text;
 
 namespace RebuLib
 {
-    internal class RebuTest
+    public class RebuTest
     {
+        public int number { get; set; }
     }
 }
